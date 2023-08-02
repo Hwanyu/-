@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/Edit1"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/Edit2"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/BtnAdd"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="더하기"/>
+        <TextView
+            android:id="@+id/TextAdd"
+            android:layout_marginLeft ="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/BtnSub"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="빼기"/>
+        <TextView
+            android:id="@+id/TextSub"
+            android:layout_marginLeft ="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/BtnMul"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="곱하기"/>
+        <TextView
+            android:id="@+id/TextMul"
+            android:layout_marginLeft ="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/BtnDiv"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="나누기"/>
+        <TextView
+            android:id="@+id/TextDiv"
+            android:layout_marginLeft ="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/BtnRem"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="나머지"/>
+        <TextView
+            android:id="@+id/TextRem"
+            android:layout_marginLeft ="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>
